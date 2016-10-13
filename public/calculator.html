@@ -1,0 +1,130 @@
+
+
+<html>
+
+  <head>
+    <title>CourSys - Formula Tester</title>
+    <link rel="stylesheet" href="./calculator.css" type="text/css" />
+  </head>
+
+  <body>
+    <script src="./calculator.js" type="text/javascript"></script>
+
+<div class="cont">
+
+<div class="con">
+    <h1 id ="ttl"> Grade Calculator </h1>
+
+    <h2> Activities </h2>
+
+    <p id="sbttl"> Give grades to the numeric activities </p>
+
+	</br>
+
+    <table style="width:97%" id="tbl">
+     <tr>
+       <th>Name</th>
+       <th>Short Name</th>
+       <th>Weight</th>
+       <th>Grade</th>
+       <th>Percent</th>
+     </tr>
+
+     <tr>
+       <td>Activity 1</td>
+       <td>A1</td>
+       <td>
+         <form>
+           <input type="text" size="15" id="a1weight">
+         </form>
+       </td>
+       <td>
+         <form>
+           <input type="text" size="15" id="a1num" oninput="Calculate_Percentage()">/
+         </form>
+         <form>
+            <input type="text" size="15" id="a1den" oninput="Calculate_Percentage()">
+         </form>
+       </td>
+       <td>
+         <p id="a1percent"></p>
+       </td>
+     </tr>
+
+     <tr>
+       <td>Activity 2</td>
+       <td>A2</td>
+       <td>
+         <form>
+           <input type="text" size="15" id="a2weight">
+         </form>
+       </td>
+       <td>
+         <form>
+           <input type="text" size="15" id="a2num" oninput="Calculate_Percentage2()">/
+         </form>
+         <form>
+            <input type="text" size="15" id="a2den" oninput="Calculate_Percentage2()">
+         </form>
+       </td>
+       <td><p id="a2percent"></p></td>
+     </tr>
+
+     <tr>
+       <td>Activity 3</td>
+       <td>A3</td>
+       <td>
+         <form>
+           <input type="text" size="15" id="a3weight">
+         </form>
+       </td>
+       <td>
+         <form>
+           <input type="text" size="15" id="a3num" oninput="Calculate_Percentage3()">/
+         </form>
+         <form>
+            <input type="text" size="15" id="a3den" oninput="Calculate_Percentage3()">
+         </form>
+       </td>
+       <td><p id="a3percent"></p></td>
+     </tr>
+
+     <tr>
+       <td>Activity 4</td>
+       <td>A4</td>
+       <td>
+         <form>
+           <input type="text" size="15" id="a4weight">
+         </form>
+       </td>
+       <td>
+         <form>
+           <input type="text" size="15" id="a4num"oninput="Calculate_Percentage4()">/
+         </form>
+         <form>
+            <input type="text" size="15" id="a4den"oninput="Calculate_Percentage4()">
+         </form>
+       </td>
+       <td><p id="a4percent"></p></td>
+     </tr>
+   </table>
+
+  <h2> Result </h2>
+  <p id="res"> &nbsp;</p>
+  <p id="ltrgrd"> &nbsp;</p>
+  <p id="adv"> &nbsp;</p>
+  <p id="bttns">
+    <button type="button" onclick="Calculate_Weighted()">WEIGHTED</button>
+	&nbsp;
+    <button type="button" onclick="Calculate_Mean()">MEAN</button>
+	&nbsp;
+  <button type="button" onclick="Clear_Fields()" >CLEAR</button>
+&nbsp;
+	</br>
+	</br>
+  </p>
+  </div>
+</div>
+</body>
+
+</html>
