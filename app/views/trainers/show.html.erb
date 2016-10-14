@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Trname:</strong>
+  <%= @trainer.trname %>
+</p>
+
+<p>
+  <strong>Trlevel:</strong>
+  <%= @trainer.trlevel %>
+</p>
+
+<%= link_to 'Edit', edit_trainer_path(@trainer) %> |
+<%= link_to 'Back', trainers_path %>
