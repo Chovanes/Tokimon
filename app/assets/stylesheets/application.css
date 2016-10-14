@@ -1,15 +1,80 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+body{
+background-color: #d8e7ff;
+border-top: 0px #282828 solid;
+border-bottom: 0px #282828 solid;
+margin:0;
+}
+
+a{color:#282828;}
+a#nav1, a#nav2{
+  color: white;
+  font-size: 24px;
+}
+
+div{
+  background-color: #282828;
+  margin-top: 0;
+  margin-left: 0px;
+}
+
+
+h1{
+font-size: 2em;
+line-height: 1.1em;
+font-family: "Times New Roman", "Times", serif;
+font-weight: normal;
+background-color:#d8e7ff;
+margin-top: 0px;
+padding-left: 15px;
+}
+
+h2{
+color:#af0000;
+font-size: 1.25em;
+line-height: .65em;
+font-family: "Times New Roman", Times, serif;
+font-weight: bold;
+background-color:#e8edf4;
+padding-top:15;
+padding-bottom: 5;
+padding-left: 15;
+margin-top:5;
+}
+
+p{color:black;
+  background-color:#e8edf4;
+  padding-left: 0;
+  margin:0;
+}
+
+table{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: .75em;
+}
+
+td{text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;}
+
+table, td {
+    background-color:#e8edf4;
+    border: 1px solid #afafaf;
+    border-collapse: collapse;
+}
+
+th{
+  text-align: left;
+  background-color:#c9c9c9;
+  border: 1px solid #afafaf;
+  border-collapse: collapse;
+  padding-top:5;
+  padding-bottom: 5;
+  padding-left: 5;
+}
+
+
+form{
+}
