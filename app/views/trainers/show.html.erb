@@ -1,14 +1,14 @@
-<p id="notice"><%= notice %></p>
+<p id="notice"><%= notice%></p>
 
 <p>
-  <strong>Trname:</strong>
+  <strong>Name:</strong>
   <%= @trainer.trname %>
 </p>
 
 <p>
-  <strong>Trlevel:</strong>
-  <%= @trainer.trlevel %>
+  <strong>Level:</strong>
+  <%= @trainer.trlevel%>
 </p>
 
-<%= link_to 'Edit', edit_trainer_path(@trainer) %> |
+<%= link_to 'Edit', edit_trainer_path(@trainer), {style:"margin-left:15px;"}%> |
 <%= link_to 'Back', trainers_path %>

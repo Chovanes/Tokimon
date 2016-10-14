@@ -8,9 +8,9 @@
 <body>
 
       <div class="container">
-        <ul class="nav navbar-nav">
-          <a id="nav1" href="/trainers">Trainers</a>
-          <a id="nav2" href="/tokimons">Tokimon</a>
+        <ul>
+          <%= link_to 'Trainers', trainers_path, {:style=>"color:#fff;"}%>
+          <%= link_to 'Tokimon', tokimons_path, {:style=>"color:#fff;" }%>
         </ul>
       </div>
 <%= yield %>
